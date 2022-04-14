@@ -24,6 +24,6 @@ functions folder
 function notes
     always export.handler and use async.  (event, context) is the norm
     handler = a function
-    event = has info about incoming request. supplied by netlify
+    event = has info about incoming request. supplied by netlify such as id
     context = where the function is running. won't use here. supplied by netlify
     body = must always return a string.  it can be stringified. 
